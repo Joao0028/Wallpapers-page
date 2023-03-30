@@ -12,4 +12,4 @@ Este site teve uma melhoria onde coloquei uma página de cadastro ficticia, para
 
 Foi feito com HTML, CSS e Javascript no qual tenho me dedicado muito em aprender no momento.
 
-Espero que Goste! - 
+Espero que Goste! - https://joao0028.github.io/Wallpapers-page/
