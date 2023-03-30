@@ -1,0 +1,12 @@
+body{
+    background:#f6eddc;
+    color:black;
+}
+
+.header e .info__desktop {
+    background:#a5c8ca;
+}
+
+.gratuita {
+    color: #586875;
+}

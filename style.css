@@ -1,0 +1,229 @@
+ @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500&family=Shadows+Into+Light&display=swap');
+
+body{
+    background: #1D232A;
+	color: white;
+	font-family: 'Quicksand', sans-serif;
+}
+
+.engloba{
+    display: flex;
+}
+.header{
+    display: flex;
+    background: #15191C;
+    width: 14%;
+    padding: 2em 1em 0 1em;
+	flex-direction: column;
+	align-items: center;
+}
+.cima{
+	display: flex;
+	width: 100%;
+	box-shadow: 1px 0px 4px black;
+	padding: 0.5em;
+	justify-content: flex-end;
+}
+.minha__foto{
+	width: 10px;
+	height: 10px;
+}
+
+ion-icon{
+	font-size: 26px;
+}
+.cima a{
+	display: flex;
+    align-items: center;
+	text-decoration: none;
+	margin: 0 0.5em;
+	
+}
+.link__perfil{
+	color: white;
+}
+
+.nome__link{
+	padding-right: 2em;
+	border-right: 1px solid;
+	color: #95999C;
+	font-family: 'Quicksand', sans-serif;
+	font-size: 15px;
+	white-space: nowrap;
+}
+.muda__cor{
+	margin: 0 0.5em 0 0.5em;
+	width: 20%;
+}
+
+.mona__lisa{
+	width: 75%;
+    height: 20vh;
+    border-radius: 100%;
+	margin: 0 0 1em 0;
+}
+
+.titulo__da__pagina{
+	font-size: 20px;
+	margin: 0 0 40px;
+	font-family: 'Shadows Into Light', cursive;
+}
+
+.subtitulos{
+	display: flex;
+    color: white;
+    font-size: 20px;
+    padding-left: 4px;
+    flex-direction: column;
+}
+
+.subtitulos a{
+	color: #95999C;
+    margin: 0 0 30px 18px;
+    text-decoration: none;
+    font-size: 18px;
+	padding-top: 4px;
+	font-family: 'Quicksand', sans-serif;
+}
+.subtitulos a:hover{
+ 	color: white;
+	 border-bottom: 1px solid white;
+}
+.subtitulos a:active{
+	color: #1D232A;
+	border-bottom: 1px solid #1D232A;
+}
+.flex{
+	display: flex;
+}
+.inicio{
+	border-left: 3px solid;
+	padding-left: 3px;
+}
+.titulo__2{
+	padding: 1em 1em 20px;
+    font-size: 34px;
+	font-family: 'Quicksand', sans-serif;
+}
+.titulo_page{
+	display: flex;
+    align-items: center;
+    margin: 0 16em;
+	font-family: 'Shadows Into Light', cursive;
+}
+.do__meio{
+	margin: 0 1em;
+}
+.logo__inicio{
+	color: white;
+}
+.logo__inicio:hover{
+	color: #95999C;
+}
+
+.itens__container{
+	display: flex;
+}
+
+.container__1{
+	display: flex;
+	flex-direction: column;
+	margin: 0 auto;
+	border-radius: 12px;
+	margin: 0 0px 0 0.7em;
+	width: 32%;
+}
+
+.titulo__containers{
+	text-align: center;
+	font-size: 20px;
+}
+
+
+.image{
+	width: 100%;
+}
+
+.igm{
+	width: 15%;
+    border-radius: 100%;
+    margin: 0 7px;
+}
+
+#icon__menu:hover{
+	color: #95999C;
+	border-left: 3px solid;
+	padding-left: 3px;
+}
+
+.titulo__da__pagina:hover{
+	color: #95999C;
+}
+
+.imagem__desktop{
+	width: 100%;
+	height: 30vh;
+	margin: 1em 0 0 0;
+	border-radius: 12px 12px 0 0;
+}
+
+.titulo__desktop{
+	margin: 0 0 0 1em;
+}
+.info__desktop{
+	height: 20vh;
+	border-radius: 0 0 12px 12px;
+	background: #2C343A;
+	width: 100%;
+	margin: -3px 0 0 0;
+	padding: 1em 0;
+}
+
+.links{
+	display: flex;
+	justify-content: center;
+    align-items: center;
+}
+
+.gratuita{
+	color: #95999C;
+	margin: 1em 0 0 1em;
+}
+
+.linkes{
+	text-decoration: none;
+	background: #0480DC;
+	color: white;
+	margin: 1em 0.5em;
+	padding: 1.5em;
+	width: 32%;
+	text-align: center;
+	border-radius: 12px;
+}
+.linkes:hover{
+	background: linear-gradient(45deg, rgb(225, 5, 152) 0%, rgba(225, 5, 34, 0) 70%) repeat scroll 0% 0%, linear-gradient(135deg, rgb(26, 1, 117) 10%, rgba(49, 5, 209, 0) 80%) repeat scroll 0% 0%, linear-gradient(225deg, hsla(179, 91%, 45%, 1) 10%, rgba(10, 219, 216, 0) 80%) repeat scroll 0% 0%, rgba(0, 0, 0, 0) linear-gradient(315deg, rgb(189, 5, 245) 100%, rgba(9, 245, 5, 0) 70%) repeat scroll 0% 0%;
+	color: white;
+}
+.linkes:active{
+	background: #0480DC;
+	color: #95999C;
+}
+
+.container__1{
+	display: flex;
+	flex-direction: column;
+	white-space: nowrap;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

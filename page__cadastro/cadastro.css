@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Quicksand:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500&family=Shadows+Into+Light&display=swap');
+
+
+body{
+    font-family: 'Quicksand', sans-serif;
+    background: linear-gradient(45deg, rgb(225, 5, 152) 0%, rgba(225, 5, 34, 0) 70%) repeat scroll 0% 0%, linear-gradient(135deg, rgb(26, 1, 117) 10%, rgba(49, 5, 209, 0) 80%) repeat scroll 0% 0%, linear-gradient(225deg, hsla(179, 91%, 45%, 1) 10%, rgba(10, 219, 216, 0) 80%) repeat scroll 0% 0%, rgba(0, 0, 0, 0) linear-gradient(315deg, rgb(189, 5, 245) 100%, rgba(9, 245, 5, 0) 70%) repeat scroll 0% 0%;}
+
+.cadastro{
+    background: #e2efe8;
+    width: 80%;
+    margin: 4em auto;
+    height: 80vh;
+    border-radius: 22px;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.container__cadastro{
+    display: flex;
+}
+
+.primario , .secundario{
+    padding: 1em;
+    width: 50%;
+    height: 80vh;
+}
+.primario{
+    position: absolute;
+    background: #e2efe8;
+    right: -3%;
+    width: 52%;
+    /**/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.secundario{
+    position: absolute;
+    background: linear-gradient(90deg, hsla(217, 100%, 50%, 1) 0%, #0f4571);
+    width: 50%;
+    right: 48%;
+    /**/
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+@keyframes direita-animation{
+    from{
+        right: 47%;
+    }
+    to{
+        right: 0;
+    }
+}
+@keyframes esquerda-animation{
+    from{
+        right: 0;
+    }
+    to{
+        right: 47%;
+    }
+}
+
+.login{
+    padding: 1em;
+    border-radius: 22px;
+    width: 40%;
+    font-size: 15px;
+    margin: 1.5em auto;
+    display: block;
+    border: none;
+    border: none;
+    background-color: #1840aa;
+    color: white;
+}
+.login:hover{
+    background-color: white;
+    color: #1840aa;
+}
+
+
+.criar__conta{
+    white-space: nowrap;
+    padding: 1em;
+    border-radius: 22px;
+    width: 40%;
+    font-size: 15px;
+    margin: 1.5em auto;
+    display: block;
+    color: white;
+    background-color: transparent;
+    border: 1px solid white;
+}
+.criar__conta:hover{
+    border: none;
+    background-color: #1840aa;
+    color: white;
+}
+
+.desloca__direita{
+    animation: direita-animation 0.5s forwards ;
+}
+.desloca__esquerda{
+    animation: esquerda-animation 0.5s forwards ;
+}
+
+h1,h2{
+    color: white;
+}
+
+h1{
+    font-weight: 800;
+    text-align: center;
+    
+    font-size: 22px;
+}
+h2{
+    text-align: justify;
+    margin: 1em 2em 3em;
+    font-size: 18px;
+}
+
+.inputes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.inputes input{
+    border: none;
+    border-radius: 16px;
+    width: 300px;
+    margin: 1em 0;
+    padding: 1em 0.5em;
+    background: #c5d2bb;
+}
+
+.nome{
+    display: none;
+}
+
+.crie__ja{
+    color: #1840aa;
+}
+
+.ja{
+    color: black;
+}
+.nome1{
+    display: none;
+}
+
+.logos{
+    display: flex;
+    margin: 1em auto;
+}
+
+
+ion-icon{
+    margin: 1em;
+    font-size: 30px;
+}
+
+.aHref{
+    color: black;
+}
+
+
